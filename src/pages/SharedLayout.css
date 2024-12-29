@@ -1,0 +1,13 @@
+.main {
+  background-color: #1a1c1b;
+  min-height: 100vh;
+  padding: 20px;
+  /box-sizing: border-box;
+}
+.light-mode {
+  background-color: #ffffff;
+}
+
+.dark-mode {
+  background-color: #1a1c1b;
+}

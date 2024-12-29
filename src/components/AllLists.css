@@ -1,0 +1,66 @@
+.all-lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+}
+
+.detail-container3 {
+  background-color: #c7e7f9;
+  border: 1px solid #b0d8f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.detail-container3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.add-new-list {
+  color: #b0d8f5;
+}
+
+.open-modal-btn {
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.list-and-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 80%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+}
+
+.list-and-delete:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .detail-container3 {
+    flex: 1 1 100%;
+  }
+}

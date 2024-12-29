@@ -1,0 +1,101 @@
+.detail-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c7e7f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.detail-container1 h1 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.detail-container1 .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail-container1 .item p {
+  margin: 0;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.detail-container1 .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.detail-container1 .form input,
+.detail-container1 .form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.detail-container1 .form button {
+  background-color: #065b94;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.detail-container1 .form button:hover {
+  background-color: #3188c2;
+}
+
+.filter-button {
+  padding: 10px;
+  background-color: #3188c2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.filter-button:hover {
+  background-color: #80a8c2;
+}
+
+.edit-name {
+  display: flex;
+  flex-direction: column; /* Zarovná tlačítka pod sebe */
+  gap: 10px; /* Mezera mezi tlačítky */
+  margin-bottom: 20px; /* Vzdálenost od ostatních prvků */
+}
+
+.edit-name button {
+  width: 100%; /* Tlačítka budou stejně široká */
+  background-color: #1976d2; /* Barva tlačítek */
+  color: white; /* Barva textu */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-name button:hover {
+  background-color: #1565c0; /* Barva při hover efektu */
+}
